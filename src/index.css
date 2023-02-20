@@ -30,12 +30,13 @@ nav img{
     align-items: center; 
     justify-content: center;
     position: relative;
+    /* overflow: hidden; */
 }  
 .projectSection{ 
     display: flex;   
     gap:100px;
     flex-wrap: nowrap; 
-    /* overflow-x: auto; */ 
+    overflow-x: auto; 
     padding: 50px;  
     
 }
